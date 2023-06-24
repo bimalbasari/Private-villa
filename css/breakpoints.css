@@ -3,7 +3,7 @@
         width: 100vw;
     }
 
-    /* header Section text breack point */
+    /* header Section text breakpoint */
     .mainHeadding>h1 {
         font-size: 20rem;
     }
@@ -12,13 +12,15 @@
         font-size: 20rem;
     }
 
+ 
+
+
     .mainHeadding {
-        width: 70%;
-        height: 13vh;
-        margin-bottom: 9%;
+        height: 105%;
+
     }
 
-    /* About Section break point */
+    /* About Section breakpoint */
     .aboutData {
         height: auto;
         width: 40%;
@@ -69,7 +71,7 @@
         line-height: 1;
     }
 
-    /* Second Carousel with Property image Section breackpoint */
+    /* Second Carousel with Property image Section breakpoint */
     .property_Gallery p:nth-child(1) {
         font-size: 7rem;
     }
@@ -78,7 +80,7 @@
         font-size: 9rem;
     }
 
-    /* Property  image  Section break point */
+    /* Property  image  Section breakpoint */
     .location-1-info p {
         font-size: 4rem;
         line-height: 75px;
@@ -138,22 +140,21 @@
         width: 100vw;
     }
 
-    /* header Section text breack point */
-    .mainHeadding>h1 {
-        font-size: 15rem;
-    }
+    /* header Section text breakpoint */
+     .mainHeadding>h1 {
+    font-size: 15rem;
+}
 
-    .mainHeadding>h2 {
-        font-size: 20rem;
-    }
+.mainHeadding>h2 {
+    font-size: 18rem;
+}
 
-    .mainHeadding {
-        width: 70%;
-        height: 13vh;
-        margin-bottom: 9%;
-    }
+.mainHeadding {
+    height: 105%;
 
-    /* About Section break point */
+}
+
+    /* About Section breakpoint */
     .aboutData {
         height: auto;
         width: 40%;
@@ -204,7 +205,7 @@
         line-height: 1;
     }
 
-    /* Second Carousel with Property image Section breackpoint */
+    /* Second Carousel with Property image Section breakpoint */
     .property_Gallery p:nth-child(1) {
         font-size: 7rem;
     }
@@ -213,7 +214,7 @@
         font-size: 9rem;
     }
 
-    /* Property  image  Section break point */
+    /* Property  image  Section breakpoint */
     .location-1-info p {
         font-size: 4rem;
         line-height: 75px;
@@ -274,7 +275,8 @@
         width: 100vw;
     }
 
-    /* header Section text breack point */
+    /* header Section text breakpoint */
+  
     .mainHeadding>h1 {
         font-size: 12rem;
     }
@@ -284,12 +286,11 @@
     }
 
     .mainHeadding {
-        width: 70%;
-        height: 13vh;
-        margin-bottom: 10%;
+        height: 105%;
+
     }
 
-    /* About Section break point */
+    /* About Section breakpoint */
     .aboutData {
         height: auto;
         width: 40%;
@@ -340,7 +341,7 @@
         line-height: 1;
     }
 
-    /* Second Carousel with Property image Section breackpoint */
+    /* Second Carousel with Property image Section breakpoint */
     .property_Gallery p:nth-child(1) {
         font-size: 5rem;
     }
@@ -349,7 +350,7 @@
         font-size: 7rem;
     }
 
-    /* Property  image  Section break point */
+    /* Property  image  Section breakpoint */
     .location-1-info p {
         font-size: 3rem;
         line-height: 60px;
@@ -423,7 +424,7 @@
 
     }
 
-    /* About Section break point */
+    /* About Section breakpoint */
     .aboutData {
         height: auto;
         width: 40%;
@@ -472,7 +473,7 @@
         line-height: 1;
     }
 
-    /* Second Carousel with Property image Section breackpoint */
+    /* Second Carousel with Property image Section breakpoint */
     .property_Gallery p:nth-child(1) {
         font-size: 4.5rem;
     }
@@ -481,7 +482,7 @@
         font-size: 6rem;
     }
 
-    /* Property  image  Section break point */
+    /* Property  image  Section breakpoint */
     .location-1-info p {
         font-size: 2rem;
         line-height: 40px;
@@ -594,7 +595,7 @@
 
     }
 
-    /* About Section break point */
+    /* About Section breakpoint */
     .aboutData>h4 {
         font-size: 2rem;
     }
@@ -680,7 +681,7 @@
         line-height: 1;
     }
 
-    /* Second Carousel with Property image Section breackpoint */
+    /* Second Carousel with Property image Section breakpoint */
     .property_Gallery p:nth-child(1) {
         font-size: 4rem;
     }
@@ -689,7 +690,7 @@
         font-size: 5rem;
     }
 
-    /* Property  image  Section break point */
+    /* Property  image  Section breakpoint */
     .location-1-info p {
         font-size: 1.8rem;
         line-height: 35px;
@@ -742,7 +743,7 @@
         font-size: 9rem;
     }
 
-    /* About Section break point */
+    /* About Section breakpoint */
     .aboutData>h4 {
         font-size: 1.7rem;
     }
@@ -783,7 +784,7 @@
         line-height: 1;
     }
 
-    /* Second Carousel with Property image Section breackpoint */
+    /* Second Carousel with Property image Section breakpoint */
     .property_Gallery p:nth-child(1) {
         font-size: 3rem;
     }
@@ -792,7 +793,7 @@
         font-size: 4rem;
     }
 
-    /* Property  image  Section break point */
+    /* Property  image  Section breakpoint */
     .location-1-info p {
         font-size: 1.2rem;
         line-height: 30px;
@@ -931,7 +932,7 @@
         font-size: 8rem;
     }
 
-    /* About Section break point */
+    /* About Section breakpoint */
     .aboutData>h4 {
         font-size: 1.5rem;
     }
@@ -957,7 +958,7 @@
         line-height: 1;
     }
 
-    /* Property  image  Section break point */
+    /* Property  image  Section breakpoint */
     .location-1-info p {
         font-size: 0.91rem;
         line-height: 25px;
@@ -1009,7 +1010,7 @@
         font-size: 7rem;
     }
 
-    /* About Section break point */
+    /* About Section breakpoint */
     .aboutData>h4 {
         font-size: 1rem;
     }
@@ -1047,7 +1048,7 @@
         line-height: 1;
     }
 
-    /* Second Carousel with Property image Section breackpoint */
+    /* Second Carousel with Property image Section breakpoint */
     .property_Gallery p:nth-child(1) {
         font-size: 2rem;
     }
@@ -1060,7 +1061,7 @@
         height: 300px;
     }
 
-    /* Property  image  Section break point */
+    /* Property  image  Section breakpoint */
     .location-1-info p {
         font-size: 0.7rem;
         line-height: 1;
@@ -1141,7 +1142,7 @@
         color: #fff;
     }
 
-    /* About Section break point */
+    /* About Section breakpoint */
     .aboutSetion {
         height: 120vh;
     }
@@ -1158,7 +1159,7 @@
         letter-spacing: normal;
     }
 
-    /* About Section break point */
+    /* About Section breakpoint */
     .aboutData {
         width: 90vw;
         margin-left: 2%;
@@ -1228,7 +1229,7 @@
         line-height: 1;
     }
 
-    /* Second Carousel with Property image Section breackpoint */
+    /* Second Carousel with Property image Section breakpoint */
     .property_Gallery p:nth-child(1) {
         font-size: 2.5rem;
     }
@@ -1241,7 +1242,7 @@
         font-size: 2.5rem;
     }
 
-    /* Property  image  Section break point */
+    /* Property  image  Section breakpoint */
     .location-1-info p {
         font-size: 0.5rem;
         line-height: 2;
@@ -1350,7 +1351,7 @@
         font-size: 1.5rem;
     }
 
-    /* About Section break point */
+    /* About Section breakpoint */
     .aboutSetion {
         width: 100%;
         position: relative;
@@ -1387,7 +1388,7 @@
         display: none;
     }
 
-    /* Second Carousel with Property image Section breackpoint */
+    /* Second Carousel with Property image Section breakpoint */
     .slider .slider_images .slider_image {
         height: 200px;
     }
