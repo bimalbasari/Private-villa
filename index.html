@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Private Villa</title>
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="./css/breakdown.css"> -->
+    <link rel="stylesheet" href="./css/breakpoints.css">
+</head>
+
+<body>
+    <!-- header Section and navbar -->
+    <header class="header">
+        <img src="./images/sdgsdf1.png" alt="Image">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <p class="navbar-brand  fs-1 fw-bold ">VILLA</p>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">TOUR</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ">GALLERY</a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a id="tour-Btn" class="nav-link w-100 rounded-pill ">BOOK A TOUR</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+        <div class="mainHeadding">
+            <h1 class="">PRIVATE</h1>
+            <h2 class="">Villa</h2>
+        </div>
+
+    </header>
+    <!-- About Section  fast carousel -->
+    <section class="aboutSetion ">
+        <div class=" about ">
+            <p class="display-1 fw-medium  ">LIFESTYLE</p>
+            <div class="about-section">
+                <div class="aboutData  ">
+
+                    <h4>
+                        A breathtaking, one-of-a-kind place to call home.
+                    </h4>
+                    <p>
+                        Majestic views of Mount Rainier from your own private mountain. You will experience
+                        the grandness nature. Designed by Ralph Anderson, "The Father of Northwest style Architecture"
+                        and
+                        constructed by "Master Builder" Floyd Erickson. Truly One of a Kind. Meticulously landscaped
+                        grounds. Impeccable Finishes with Luxurious indoor and outdoor Spaces. Private, Secure, and
+                        peaceful. Discerning buyers only.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="propertyImages ">
+            <div class="slider_back ">
+
+
+                <div class="slider_items owl-carousel" id="carousel1">
+                    <div class="slider_item">
+                        <img src="./images/crosul1_image1.png" alt="Park">
+                        <div class="content">
+                            <h3>Park</h3>
+                        </div>
+                    </div>
+
+                    <div class="slider_item">
+                        <img src="./images/crosul1_image2.jpg" alt="Halipad">
+                        <div class="content">
+                            <h3>Helipad</h3>
+                        </div>
+                    </div>
+                    <div class="slider_item">
+                        <img src="./images//v 1.png" alt="Halipad">
+                        <div class="content">
+                            <h3>Park</h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features section with property map -->
+    <section class="propertySection">
+        <h2 class="heading_1">The Property
+            <span>Features</span>
+        </h2>
+        <div class="property_Sky_view" style="background-color:var( --text-color); width: 100%; ">
+            <!-- Map image  -->
+            <div class="mapImage">
+                <img src="./images/Group 16.png" usemap="#imagemap" alt=" Property map with clickable areas"
+                    class="image" width="1920px" height="902">
+            </div>
+
+            <!-- map area -->
+
+            <map name="imagemap">
+                <area shape="circle" coords="496,332,38" onclick="showCard(1)">
+                <area shape="circle" coords="118,263,37" onclick="showCard(2)">
+                <area shape="circle" coords="469,517,36" onclick="showCard(3)">
+                <area shape="circle" coords="503,660,34" onclick="showCard(4)">
+                <area shape="circle" coords="693,315,33" onclick="showCard(5)">
+                <area shape="circle" coords="1013,317,35" onclick="showCard(6)">
+                <area shape="circle" coords="1398,707,38" onclick="showCard(7)">
+                <area shape="circle" coords="1673,510,32" onclick="showCard(8)">
+            </map>
+            <!-- Map card 1 -->
+            <div class="mapCard card" id="card1" onclick="$('.mapCard').hide()">
+                <div class="card-body">
+                    <button type="button" class="close" onclick="$('.mapCard').hide()">&times;</button>
+                    <img class="card-img-top" src="./images/leaf 1.png" alt="Card Image">
+                    <h5 class="card-title">Card Heading</h5>
+                    <p class="card-text fs-6 "> Lorem ipsum dolor, sit amet consectetur adipisicing elit..</p>
+                </div>
+            </div>
+            <!-- Map card 2 -->
+            <div class="mapCard card" id="card2" onclick="$('.mapCard').hide()">
+                <div class="card-body">
+                    <button type="button" class="close" onclick="$('.mapCard').hide()">&times;</button>
+                    <img class="card-img-top p-1" src="./images/v 1.png" alt="Card Image">
+                    <h5 class="card-title">Card Heading</h5>
+                    <p class="card-text fs-6 "> Lorem ipsum dolor, sit amet consectetur adipisicing elit..</p>
+                </div>
+            </div>
+            <!-- Map card 3 -->
+            <div class="mapCard card" id="card3" onclick="$('.mapCard').hide()">
+                <div class="card-body">
+                    <button type="button" class="close" onclick="$('.mapCard').hide()">&times;</button>
+                    <img class="card-img-top" src="./images/cro2img1.png" alt="Card Image">
+                    <h5 class="card-title">Card Heading</h5>
+                    <p class="card-text fs-6 "> Lorem ipsum dolor, sit amet consectetur adipisicing elit..</p>
+                </div>
+            </div>
+            <!-- Map card 4 -->
+            <div class="mapCard card" id="card4" onclick="$('.mapCard').hide()">
+                <div class="card-body">
+                    <button type="button" class="close" onclick="$('.mapCard').hide()">&times;</button>
+                    <img class="card-img-top" src="./images/crosul1_image1.png" alt="Card Image">
+                    <h5 class="card-title">Card Heading</h5>
+                    <p class="card-text fs-6 "> Lorem ipsum dolor, sit amet consectetur adipisicing elit..</p>
+                </div>
+            </div>
+            <!-- Map card 5 -->
+            <div class="mapCard card" id="card5" onclick="$('.mapCard').hide()">
+                <div class="card-body">
+                    <button type="button" class="close" onclick="$('.mapCard').hide()">&times;</button>
+                    <img class="card-img-top" src="./images/Group 16.png" alt="Card Image">
+                    <h5 class="card-title">Card Heading</h5>
+                    <p class="card-text fs-6 "> Lorem ipsum dolor, sit amet consectetur adipisicing elit..</p>
+                </div>
+            </div>
+            <!-- Map card 6 -->
+            <div class="mapCard card" id="card6" onclick="$('.mapCard').hide()">
+                <div class="card-body">
+                    <button type="button" class="close" onclick="$('.mapCard').hide()">&times;</button>
+                    <img class="card-img-top" src="./images/crosul1_image2.jpg" alt="Card Image">
+                    <h5 class="card-title">Card Heading</h5>
+                    <p class="card-text fs-6 "> Lorem ipsum dolor, sit amet consectetur adipisicing elit..</p>
+                </div>
+            </div>
+            <!-- Map card 7 -->
+            <div class="mapCard card" id="card7" onclick="$('.mapCard').hide()">
+                <div class="card-body">
+                    <button type="button" class="close" onclick="$('.mapCard').hide()">&times;</button>
+                    <img class="card-img-top" src="./images/cro2img3.png" alt="Card Image">
+                    <h5 class="card-title">Card Heading</h5>
+                    <p class="card-text fs-6 "> Lorem ipsum dolor, sit amet consectetur adipisicing elit..</p>
+                </div>
+            </div>
+            <!-- Map card 8 -->
+            <div class="mapCard card" id="card8" onclick="$('.mapCard').hide()">
+                <div class="card-body">
+                    <button type="button" class="close" onclick="$('.mapCard').hide()">&times;</button>
+                    <img class="card-img-top" src="./images/cro2img2.png" alt="Card Image">
+                    <h5 class="card-title">Card Heading</h5>
+                    <p class="card-text fs-6 "> Lorem ipsum dolor, sit amet consectetur adipisicing elit..</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Property video section -->
+    <section class="propertyVideo">
+        <div class="propertyDetails">
+            <p>A <span>12,000 sq foot</span> masterpiece designed by Seattle's own architect
+            </p>
+            <p>Ralph Anderson </p>
+        </div>
+
+        <div class="property_Font_view">
+            <video src="./images/sample video.mp4" width="640" height="360" loop muted poster="./images/kjkj 1.png"
+                controls>
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+    </section>
+
+    <!--  Second Carousel with Property image Section -->
+    <section class="gallery">
+        <div class="property_Gallery">
+            <p>OUR</p>
+            <p>Gallery</p>
+
+            <div class="propertyCarousel ">
+                <!--Second Carousel -->
+                <div class="slider">
+                    <div class="slider_images owl-carousel" id="carousel2">
+
+                        <!-- Carousel image 1 -->
+                        <div class="slider_image">
+                            <img src="./images/cro2img1.png" alt="Image">
+                        </div>
+
+                        <!-- Carousel image 2 -->
+                        <div class="slider_image">
+                            <img src="./images/cro2img2.png" alt="Image">
+                        </div>
+                        <!-- Carousel image 3 -->
+
+                        <div class="slider_image">
+                            <img src="./images/cro2img3.png" alt="iamge">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Property  image  Section -->
+    <section class="location_info">
+        <p>LOCATION</p>
+        <!-- Image one -->
+        <div class="location-1">
+            <div class="location-1-info">
+                <p>10 acres of spectacular views from MT Rainier to the Puget Sound and all landscapes in between</p>
+            </div>
+            <div class="location-1-image">
+                <img src="./images/v 1.png" alt="Image">
+                <img src="./images/guiyu 1.png" alt="Image">
+            </div>
+        </div>
+        <!-- Image two -->
+        <div class="location-2-image">
+            <img src="./images/h7y 1.png" alt="Image">
+            <img src="./images/gi 1.png" alt="Image">
+        </div>
+        <!--   Image three  -->
+        <div class="location-3-image">
+            <img src="./images/dfesdf 2.jpg" alt="Image">
+            <img src="./images/leaf 1.png" alt="Image">
+        </div>
+    </section>
+
+    <!-- Owner Card Section -->
+    <section class="ownerCard">
+        <div class="card-heading">
+            <h1>BOOK A <span> Tour </span> WITH US</h1>
+        </div>
+        <div class="owner-card">
+            <div class="owner">
+                <img src="./images/Group 27.png" class="owner-image" alt="Image">
+                <div class="owner-id">
+                    <p>robert potashnick</p>
+                    <p>Principal Managing Broker | Owner
+                        Ewing & Clark Inc.</p>
+                </div>
+            </div>
+            <div class="owner-info">
+                <img src="./images/Group 24.png" alt="Image">
+                <img src="./images/Group 25.png" alt="Image">
+            </div>
+
+        </div>
+        <div class="rating-container">
+            <div class="inner-container">
+                <div class="box">
+                    <p>49</p>
+                    <p>Watefront homes sold</p>
+                </div>
+                <div class="box">
+                    <p>598</p>
+                    <p>happy clients</p>
+                </div>
+                <div class="box">
+                    <p>259</p>
+                    <p></p>
+                </div>
+                <div class="box">
+                    <p>487</p>
+                    <p> mutliple offer transactions closed</p>
+                </div>
+                <div class="box">
+                    <p>120</p>
+                    <p>condos sold </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Listning property section -->
+    <section class="footer">
+        <div class="w-50 listining-property  ">
+            <div>
+                <p>our property</p>
+                <p>Listings </p>
+            </div>
+
+        </div>
+        <div class="listining-items mt-4 m-1">
+            <div class="card  text-light ">
+                <img src="./images/nivaria-beach-footer.png" class="card-img-top" alt="Image">
+                <div class="card-body p-1">
+                    <p class="card-text ">225 Roy St , Seattle</p>
+                    <a href="#" class="card-link ">Sold</a>
+                </div>
+            </div>
+
+            <div class="card  text-light m-1">
+                <img src="./images//ura-footer-237x306-c.png" alt="ura" class="card-img-top" alt="Image">
+                <div class="card-body  p-1 ">
+                    <p class="card-text ">7301 5th Ave ne, Seattle</p>
+                    <a href="#" class="card-link ">Sold</a>
+                </div>
+            </div>
+            <div class="card  text-light m-1">
+                <img src="./images/kirali-budapest-footer.png" alt="kirali-budapest" class="card-img-top" alt="Image">
+                <div class="card-body  p-1 ">
+                    <p class="card-text ">4689 martin luther king , Seattle</p>
+                    <a href="#" class="card-link ">Sold</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Copy write Section  -->
+    <footer style="width: 100%;"><img src="./images/Group 22.png" alt="Image" width="100%" height="auto"></footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

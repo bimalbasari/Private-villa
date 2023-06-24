@@ -1,0 +1,758 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Lato&family=Playfair+Display&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/* color */
+:root {
+  --primary-color: #FFFD3B;
+  --secondary-color: #11151B;
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --heading-color: #FFFFFF;
+  --accent-color: #777777;
+  --bacground-color-2: #E5E5E5;
+}
+
+/* Reset default style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: var(--secondary-color);
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+/* header Section and navbar Style */
+.header {
+  height: 90vh;
+  position: relative;
+}
+
+/* Navbar Brand Style */
+.navbar-brand {
+  font-family: 'Playfair Display';
+  color: var(--primary-color);
+}
+
+.nav-link {
+  font-family: 'Lato';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--heading-color);
+
+}
+
+#tour-Btn {
+  color: #000000;
+  font-family: 'Lato';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  background: var(--primary-color);
+}
+
+#tour-Btn:hover {
+  color: var(--background-color);
+  background-color: var(--text-color);
+}
+
+.header-container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -5;
+}
+
+.mainHeadding>h1 {
+  font-family: 'Playfair Display';
+  font-size: 9.5rem;
+  font-weight: 400;
+  color: var(--background-color);
+  line-height: 1;
+}
+
+.mainHeadding>h2 {
+  font-family: 'Alex Brush';
+  text-align: left;
+  font-size: 7rem;
+  color: var(--primary-color);
+  line-height: 1;
+
+
+}
+
+.mainHeadding {
+  height: 95%;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 8%;
+}
+
+
+/* About Section  fast scrolbar Style*/
+
+.aboutSetion {
+  width: 100%;
+  position: relative;
+  z-index: -1;
+  height: 170vh;
+}
+
+.about {
+  background-color: var(--background-color);
+  height: 70%;
+  display: flex;
+  color: var(--text-color);
+
+}
+
+.about>P {
+  letter-spacing: 2rem;
+  position: absolute;
+  bottom: 47%;
+}
+
+.about-section {
+  height: 100%;
+  width: 100%;
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.aboutData {
+  height: max-content;
+  width: 40%;
+  margin-right: 5%;
+  padding: 5rem 1rem;
+}
+
+
+.aboutData>h4 {
+  font-family: 'Lato';
+  font-size: 1.8rem;
+  font-weight: 200;
+  line-height: 1;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--primary-color);
+
+
+}
+
+.aboutData>p {
+  font-family: 'Lato';
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--background-color);
+  margin-top: 5%;
+}
+
+.aboutData-2>p {
+  font-family: 'Playfair Display';
+  letter-spacing: 1.5rem;
+  color: var(--secondary-color);
+  position: absolute;
+  top: 45%;
+}
+
+/*  Fast scrolbar style --> */
+.propertyImages {
+  height: 35%;
+  background-color: var(--background-color);
+  position: relative;
+}
+
+.slider_back {
+  width: 100%;
+  padding: 0 10%;
+  position: absolute;
+  top: -55%;
+  left: -12%;
+  z-index: 5;
+}
+
+.slider_back .slider_items {
+  width: 100%;
+}
+
+.slider_back .slider_items .slider_item {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+.slider_back .slider_items .slider_item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider_back .slider_items .slider_item .content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 80%;
+  left: -4%;
+}
+
+.slider_back .slider_items .slider_item .content h3 {
+  font-family: 'Playfair Display';
+  text-transform: capitalize;
+  text-shadow: 0px 0px 10px rgba(0, 2px, 0, 0.25);
+  color: var(--bacground-color-2);
+  position: relative;
+}
+
+/*   Fast scrolbar Button style --> */
+
+.slider_items .owl-nav {
+  position: absolute;
+  top: 105%;
+  left: 70%;
+  margin: auto;
+  height: 50px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 5;
+}
+
+
+.slider_items .owl-nav button span {
+  padding: 0.5rem;
+  border: 1px solid var(--accent-color);
+  font-weight: 200;
+  border-radius: 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Features section with property map*/
+.propertySection {
+  width: 100%;
+  margin-top: -3px !important;
+  position: relative;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading_1 {
+  background-color: var(--heading-color);
+  text-align: center;
+  padding-bottom: 2rem;
+  margin-bottom: 0;
+  font-family: 'Playfair Display';
+
+}
+
+.heading_1 span {
+  font-family: 'Alex Brush';
+
+}
+
+/* Propery map style */
+
+.property_Sky_view {
+  /* width: 99.5vw !important; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+}
+
+.mapCard {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  background-color: #fff !important;
+}
+
+
+.mapCard .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 2.5rem;
+  color: #000;
+  border: none;
+  background: none;
+  padding-right: 1rem;
+  cursor: pointer;
+}
+
+.mapImage {
+  margin: auto;
+  width: 100%;
+  object-fit: contain;
+  overflow: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+area {
+  cursor: pointer;
+}
+
+/* Property video section Style */
+
+.propertyVideo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 8%;
+  padding-top: 5%;
+
+}
+
+.propertyDetails {
+  width: 30%;
+
+}
+
+.propertyDetails p:nth-child(1) span {
+  color: var(--primary-color);
+}
+
+.propertyDetails p {
+  font-size: 2rem;
+  text-align: left;
+
+}
+
+.propertyDetails p:nth-child(1) {
+  color: var(--bacground-color-2);
+  font-family: 'Playfair Display';
+
+}
+
+.propertyDetails p:nth-child(2) {
+  font-family: 'Alex Brush';
+
+  color: var(--primary-color);
+
+}
+
+.property_Font_view {
+  width: 80%;
+}
+
+.property_Font_view video {
+  height: auto;
+  width: 100%;
+}
+
+/* Second Carousel with Property image Section Style  */
+.property_Gallery {
+  color: var(--heading-color);
+  text-align: center;
+  width: 100%;
+  position: relative;
+  margin: 4% 0;
+}
+
+.property_Gallery p:nth-child(1) {
+  font-family: 'Playfair Display';
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 0em;
+  padding: 0%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.property_Gallery p:nth-child(2) {
+  font-family: 'Alex Brush';
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 0.3;
+  color: var(--primary-color)
+}
+
+/* Second Carousel style */
+.propertyCarousel {
+  width: 100%;
+  margin-top: 2%;
+
+}
+
+.slider {
+  width: 100%;
+}
+
+.slider .slider_images {
+  width: 100%;
+}
+
+.slider .slider_images .slider_image {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+.slider_images .slider_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Second Carousel Button style */
+.slider_images .owl-nav {
+  position: absolute;
+  top: 0%;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  margin: auto;
+  z-index: 5;
+  display: block !important;
+}
+
+.slider_images .owl-nav button span {
+  width: 40px;
+  height: 40px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-size: 25px;
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  left: 5%;
+}
+
+.slider_images .owl-nav button.owl-next span {
+  left: auto;
+  right: 5%;
+
+}
+
+/* Property  image  section style */
+
+
+.location_info {
+  position: relative;
+}
+
+.location_info>p:nth-child(1) {
+  font-family: 'Playfair Display';
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 204px;
+  letter-spacing: 0.75em;
+  text-align: left;
+  color: var(--accent-color);
+  position: absolute;
+  opacity: 0.11;
+
+}
+
+.location_info .location-1 {
+  background-color: rgba(0, 0, 0, 0.60);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-1-info {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-1-info p {
+  width: 51%;
+  font-family: 'Lato';
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--primary-color);
+  text-transform: uppercase;
+
+}
+
+/* Property  image Image style */
+.location-1-image img:nth-child(1) {
+  width: 50%;
+  height: 80%;
+}
+
+.location-1-image img:nth-child(2) {
+  width: 30%;
+  height: 40%;
+  margin-left: -12%;
+  margin-top: 50%;
+}
+
+.location-2-image {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 3%;
+}
+
+.location-2-image img:nth-child(1) {
+  width: 50%;
+  height: 80%;
+}
+
+.location-2-image img:nth-child(2) {
+  width: 30%;
+  height: 85%;
+  margin-top: 10%;
+  margin-left: -5%;
+
+}
+
+.location-3-image {
+  margin-top: 13%;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.location-3-image img:nth-child(1) {
+  width: 70%;
+  height: 50%;
+}
+
+.location-3-image img:nth-child(2) {
+  width: 25%;
+  height: auto;
+  position: absolute;
+  bottom: -7%;
+  left: 20%;
+}
+
+/* Owner Card Section style */
+.ownerCard {
+  margin-top: 20%;
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.card-heading h1 span {
+  font-family: 'Alex Brush';
+  font-size: 4rem;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 1rem;
+
+}
+
+.card-heading h1 {
+  font-family: 'Playfair Display';
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 1rem;
+}
+
+.owner-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+.owner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.owner .owner-image {
+  width: 350px;
+  height: auto;
+}
+
+.owner-id {
+  width: 10rem;
+  padding: 0.5rem 1.3rem;
+  text-align: left;
+  background-color: var(--primary-color);
+  margin-left: -25%;
+  margin-top: 40%;
+}
+
+.owner-id p:nth-child(1) {
+  font-family: 'Lato';
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.owner-id p:nth-child(2) {
+  font-family: 'Lato';
+  font-size: 0.6rem;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--secondary-color);
+  margin: 0;
+}
+
+.owner-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.owner-info img {
+  width: 250px;
+  height: auto;
+  margin: 5%;
+}
+
+.rating-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2%;
+  width: 100%;
+}
+
+.inner-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.box {
+  flex: 1 0 20%;
+  height: 100%;
+}
+
+.box p:nth-child(1) {
+  color: var(--text-color);
+  font-family: 'Lato';
+  font-size: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.box p:nth-child(2) {
+  color: var(--accent-color);
+  font-family: 'Lato';
+  font-size: 10px;
+  letter-spacing: 0em;
+  line-height: 1;
+  text-align: center;
+}
+
+/*  Listning property section style */
+.footer {
+  width: 100%;
+}
+
+/* Listning property card text style */
+.card-text {
+  font-family: 'Lato';
+  font-size: 10px;
+  letter-spacing: 0em;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.card-link {
+  font-family: 'Lato';
+  font-size: 10px;
+  letter-spacing: 0em;
+  line-height: 0;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  margin-left: 1.5rem;
+}
+
+.listining-property {
+  margin-left: 10%;
+}
+
+.listining-items {
+  display: flex;
+
+}
+
+/* Listning property text style */
+.listining-property div p:nth-child(1) {
+  font-family: 'Playfair Display';
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--heading-color);
+  text-transform: uppercase;
+}
+
+.listining-property div p:nth-child(2) {
+  font-family: 'Alex Brush';
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 0;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--primary-color);
+}
+
+/* Listning property card style */
+.card {
+  background-color: var(--text-color);
+  width: 15rem;
+}
+
+/* Copy write Section style */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
